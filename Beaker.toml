@@ -10,6 +10,12 @@ network_variant = 'Shared'
 grpc_endpoint = 'https://ebony-grpc.finschia.io'
 rpc_endpoint = 'https://ebony-rpc.finschia.io'
 
+[networks.localnet]
+chain_id = 'simd-testing'
+network_variant = 'Shared'
+grpc_endpoint = 'http://localhost:9090'
+rpc_endpoint = 'http://localhost:26657'
+
 [accounts.test1]
 mnemonic = 'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius'
 
