@@ -34,6 +34,7 @@ optimizer_version = '0.13.0'
 
 [wasm.template_repos]
 cw20 = 'https://github.com/ulbqb/cw20-template'
+cw721 = 'https://github.com/ulbqb/cw721-template'
 
 # console
 [console]
