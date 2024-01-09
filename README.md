@@ -1,1 +1,1 @@
-# FCW Beaker Workspace Template
+# {{project-name}}
