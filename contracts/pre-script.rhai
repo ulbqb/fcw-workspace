@@ -12,12 +12,12 @@ if template != "sylvia" {
     file::rename("cw-sylvia-template", project_name)
 }
 if template != "cw20" {
-    file::delete("cw20-template");
+    file::delete("cw20-base");
 } else {
-    file::rename("cw20-template", project_name)
+    file::rename("cw20-base", project_name)
 }
 if template != "cw721" {
-    file::delete("cw721-template");
+    file::delete("cw721-base");
 } else {
-    file::rename("cw721-template", project_name)
+    file::rename("cw721-base", project_name)
 }
