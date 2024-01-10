@@ -1,5 +1,9 @@
 [template]
 sub_templates = ["contracts"]
-
-[hooks]
-pre = ["pre-script.rhai"]
+ignore = [ 
+  "contracts/cw-minimal-template",
+  "contracts/cw-sylvia-template",
+  "contracts/cw20-base",
+  "contracts/cw721-base",
+  "contracts/pre-script.rhai",
+]
