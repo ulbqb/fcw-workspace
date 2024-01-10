@@ -1,2 +1,5 @@
+[template]
+sub_templates = ["contracts"]
+
 [hooks]
 pre = ["pre-script.rhai"]
