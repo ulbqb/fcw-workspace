@@ -1,2 +1,2 @@
-[hooks]
-pre = ["pre-script.rhai"]
+[template]
+sub_templates = ["cw-minimal-template", "cw-sylvia-template", "cw20-base", "cw721-base"]

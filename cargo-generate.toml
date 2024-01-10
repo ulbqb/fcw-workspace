@@ -1,5 +1,4 @@
 [template]
-# sub_templates = ["contracts"]
 ignore = [ 
   "contracts/cw-minimal-template",
   "contracts/cw-sylvia-template",
