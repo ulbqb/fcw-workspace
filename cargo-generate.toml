@@ -1,6 +1,5 @@
 [template]
 ignore = [ 
-  "HOW_TO_USE.md",
   "contracts/minimal",
   "contracts/sylvia",
   "contracts/cw20",
